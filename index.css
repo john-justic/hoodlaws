@@ -43,13 +43,13 @@ main {
     max-width: 800px;
     margin: 2rem auto;
     padding: 1rem;
-    background-color: rgb(20, 19, 19);
+    background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Style the quote cards */
 .quote-card {
-    background-color: orange;
+    background-color: rgb(212, 185, 134);
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 5px;
@@ -101,23 +101,4 @@ footer {
     .quote-card {
         padding: 0.5rem;
     }
-}
-.quote-card:hover {
-    transform: scale(1.05); /* Adjust the scaling factor as needed */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Adjust the shadow as needed */
-}
-
-/* Apply a border radius to the images within quote cards */
-.quote-card img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    border-radius: 10px;
-    transition: transform 0.2s ease-in-out;
-}
-
-/* Scale the image within the card on hover */
-.quote-card:hover img {
-    transform: scale(1.1); /* Adjust the scaling factor as needed */
 }
