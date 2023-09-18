@@ -43,13 +43,13 @@ main {
     max-width: 800px;
     margin: 2rem auto;
     padding: 1rem;
-    background-color: #fff;
+    background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Style the quote cards */
 .quote-card {
-    background-color: rgb(209, 207, 88);
+    background-color: rgb(163, 184, 140);
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 5px;
@@ -101,4 +101,41 @@ footer {
     .quote-card {
         padding: 0.5rem;
     }
+}
+/* Style for article cards */
+.article-card {
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.article-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Style for article card content */
+.article-card h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.article-card p {
+    font-size: 1rem;
+}
+
+.article-card a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.article-card a:hover {
+    text-decoration: underline;
 }
