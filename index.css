@@ -6,15 +6,15 @@ body, h1, h2, p, ul, li {
 
 /* Set a background color and font styles */
 body {
-    background-color: #f0f0f0;
+    background-color: #100d0d;
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
 
 /* Style the header section */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: rgb(241, 213, 152);
+    color: rgb(14, 12, 12);
     text-align: center;
     padding: 1rem;
 }
@@ -34,7 +34,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(13, 12, 12);
     font-weight: bold;
 }
 
@@ -49,7 +49,7 @@ main {
 
 /* Style the quote cards */
 .quote-card {
-    background-color: rgb(212, 185, 134);
+    background-color: rgb(209, 207, 88);
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 5px;
