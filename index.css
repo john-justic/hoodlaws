@@ -1,20 +1,41 @@
-/* Reset some default browser styles */
-body, h1, h2, p, ul, li {
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-/* Set a background color and font styles */
-body {
-    background-color: #100d0d;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+.card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
 }
 
-/* Style the header section */
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+}
 header {
-    background-color: rgb(241, 213, 152);
-    color: rgb(14, 12, 12);
+    background-color: rgb(211, 222, 163);
+    color: rgb(17, 13, 13);
     text-align: center;
     padding: 1rem;
 }
@@ -34,109 +55,16 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: rgb(13, 12, 12);
+    color: rgb(7, 5, 5);
     font-weight: bold;
 }
-
-/* Style the main content */
 main {
     max-width: 800px;
     margin: 2rem auto;
     padding: 1rem;
-    background-color: white;
+    background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-/* Style the quote cards */
-.quote-card {
-    background-color: rgb(163, 184, 140);
-    padding: 1rem;
-    margin-bottom: 1rem;
+img {
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-
-.quote-card img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    border-radius: 10px;
-    
-}
-
-blockquote {
-    font-size: 1.2rem;
-    margin-top: 1rem;
-}
-
-cite {
-    font-size: 1rem;
-    color: #555;
-}
-
-/* Style the footer */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 0.5rem;
-}
-
-/* Responsive styles for smaller screens */
-@media (max-width: 600px) {
-    main {
-        margin: 1rem;
-    }
-
-    header h1 {
-        font-size: 1.5rem;
-    }
-
-    header nav ul li {
-        margin-right: 10px;
-    }
-
-    .quote-card {
-        padding: 0.5rem;
-    }
-}
-/* Style for article cards */
-.article-card {
-    flex: 1;
-    max-width: 300px;
-    margin: 20px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-
-.article-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-}
-
-/* Style for article card content */
-.article-card h2 {
-    font-size: 1.5rem;
-    margin: 10px 0;
-}
-
-.article-card p {
-    font-size: 1rem;
-}
-
-.article-card a {
-    text-decoration: none;
-    color: #007BFF;
-    font-weight: bold;
-    display: block;
-    margin-top: 10px;
-}
-
-.article-card a:hover {
-    text-decoration: underline;
 }
