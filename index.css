@@ -104,6 +104,7 @@ footer {
 }
 /* Style for article cards */
 .article-card {
+    flex: 1;
     max-width: 300px;
     margin: 20px;
     padding: 20px;
